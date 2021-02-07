@@ -9,12 +9,15 @@ h1, h2, h3 {
 
 #nav-logo {
   margin-left: 15px;
+  padding: 5px;
+  height: 100px;
 }
 
 #join-community-segment{
-  height: 350px;
+  background-color: #EBE4DD;
   padding-top: 70px;
   padding-left: 70px;
+  margin-bottom: 15px;
 }
 
 button#btnJoinToday {
