@@ -25,7 +25,8 @@
 <body>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #DAD0D0; height: 100px">
-        <a class="navbar-brand" href="explore.html">Beam</a>
+        <a class="navbar-brand" href="explore.html"><img src="images\logo2.png" style="height: 75px; width: 75px"></a>
+        
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
             aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -85,62 +86,50 @@
     <div class="container" style="max-width: 100%;">
         <div class="row">
             <div class="col-sm">
-                <div class="container  circle-image">
+                <div class="container  circle-image" id="All">
                     <img src="images\noun_Two Hand Gesture_1417423.png" class="rounded-circle">
-
                     <h4 class="text">All</h4>
-
                 </div>
             </div>
             <div class="col-sm">
-                <div class="container  circle-image">
+                <div class="container  circle-image" id="Knitting">
                     <img src="images\noun_knitting_1335701.png" class="rounded-circle">
-
                     <h4 class="text">Knitting</h4>
-
                 </div>
             </div>
             <div class="col-sm">
-                <div class="container  circle-image">
+                <div class="container  circle-image" id="Hiking">
                     <img src="images\noun_Hiking_1612253.png" class="rounded-circle">
-
                     <h4 class="text">Hiking</h4>
-
                 </div>
             </div>
             <div class="col-sm">
-                <div class="container  circle-image">
+                <div class="container  circle-image" id="Sewing">
                     <img src="images\noun_Sewing_571464.png" class="rounded-circle">
-
                     <h4 class="text">Sewing</h4>
-
                 </div>
             </div>
             <div class="col-sm">
-                <div class="container circle-image">
+                <div class="container circle-image" id="Quilting">
                     <img src="images\noun_Sewing_2342208.png" class="rounded-circle">
                     <h4 class="text">Quilting</h4>
                 </div>
             </div>
             <div class="col-sm">
-                <div class="container circle-image">
+                <div class="container circle-image" id="Soapmaking">
                     <img src="images\noun_soap_2848289.png" class="rounded-circle">
                     <h4 class="text">Soapmaking</h4>
                 </div>
             </div>
             <div class="col-sm">
-                <div class="container circle-image">
+                <div class="container circle-image" id="Crochet">
                     <img src="images\noun_crochet_1954839.png" class="rounded-circle">
                     <h4 class="text">Crochet</h4>
                 </div>
             </div>
-
         </div>
-
     </div>
-
     <hr>
-
     <!-- Team -->
     <section id="team" class="pb-5">
         <div class="container">
@@ -153,12 +142,14 @@
                             <div class="frontside">
                                 <div class="card">
                                     <div class="card-body text-center">
-                                        <p><img class=" img-fluid"
-                                                src="images\rocknwool-zOf_j3XJTB4-unsplash.jpg"
+                                        <p><img class=" img-fluid" src="images\rocknwool-zOf_j3XJTB4-unsplash.jpg"
                                                 alt="card image"></p>
                                         <h4 class="card-title">Knitters4Charity</h4>
-                                        <p class="card-text">Hey! My name is Kelly and Im looking to help teach
-                                            Crocheting!</p>
+                                        <span class="badge badge-secondary">Knitting</span>
+                                        <span class="badge badge-secondary">Crochet</span>
+                                        <p class="card-text">Do you have an itch to knit? A hand for crochet? Help us
+                                            reach our goal to produce 600 hats for Torontonians experience homelessness
+                                            By Dec 2021</p>
                                     </div>
                                 </div>
                             </div>
@@ -185,13 +176,14 @@
                             <div class="frontside">
                                 <div class="card">
                                     <div class="card-body text-center">
-                                        <p><img class=" img-fluid"
-                                                src="images\sarah-shull-0ImqAx2eZIQ-unsplash.jpg"
+                                        <p><img class=" img-fluid" src="images\sarah-shull-0ImqAx2eZIQ-unsplash.jpg"
                                                 alt="card image"></p>
                                         <h4 class="card-title">Toronto Animal Rescue</h4>
-                                        <p class="card-text">Hey! My name is Marshall and Im looking to help
-                                            teach
-                                            Cooking and Illustrating!</p>
+                                        <span class="badge badge-secondary">Sewing</span>
+                                        <span class="badge badge-secondary">Textiles</span>
+                                        <span class="badge badge-secondary">Upcycling</span>
+                                        <p class="card-text">Have unusable scrap fabrics from sewing projects? Send them
+                                            over to the Toronto Animal Rescue to be used as stuffing for dog beds!</p>
 
                                     </div>
                                 </div>
@@ -220,12 +212,13 @@
                             <div class="frontside">
                                 <div class="card">
                                     <div class="card-body text-center">
-                                        <p><img class=" img-fluid"
-                                                src="images\NkZj3O6C_400x400.jpg"
-                                                alt="card image"></p>
+                                        <p><img class=" img-fluid" src="images\NkZj3O6C_400x400.jpg" alt="card image">
+                                        </p>
                                         <h4 class="card-title">Girl Guides Canada</h4>
-                                        <p class="card-text">Hey! My name is Pietro and Im looking to help teach
-                                            Photography!.</p>
+                                        <span class="badge badge-secondary">Sewing</span>
+                                        <p class="card-text">The Girl Guides of Canada are collecting homemade masks to
+                                            distribute to senior homes, hospoitals, and other kids. Patterns,
+                                            measurements, and materials will be provided</p>
 
                                     </div>
                                 </div>
@@ -254,12 +247,14 @@
                             <div class="frontside">
                                 <div class="card">
                                     <div class="card-body text-center">
-                                        <p><img class=" img-fluid"
-                                                src="images\cristina-seri-dRu3zxFb6uE-unsplash.jpg"
+                                        <p><img class=" img-fluid" src="images\cristina-seri-dRu3zxFb6uE-unsplash.jpg"
                                                 alt="card image"></p>
                                         <h4 class="card-title">Chesterfield Homes</h4>
-                                        <p class="card-text">Hey! My name is Danial and Im looking to help teach
-                                            Baseball!.</p>
+                                        <span class="badge badge-secondary">Knitting</span>
+                                        <span class="badge badge-secondary">Crochet</span>
+                                        <p class="card-text">Are you an avid knitter? Knit or crouchet mittens, hats,
+                                            scarves, and any other winter accessories for our senior citizens this cold
+                                            season!.</p>
 
                                     </div>
                                 </div>
@@ -268,6 +263,7 @@
                                 <div class="card">
                                     <div class="card-body text-center mt-4">
                                         <h4 class="card-title">Chesterfield Homes</h4>
+
                                         <p class="card-text">I'm available all week, willing to put any amount
                                             of
                                             hours
@@ -291,12 +287,12 @@
                             <div class="frontside">
                                 <div class="card">
                                     <div class="card-body text-center">
-                                        <p><img class=" img-fluid"
-                                                src="https://sunlimetech.com/portfolio/boot4menu/assets/imgs/team/img_05.png"
-                                                alt="card image"></p>
+                                        <p><img class=" img-fluid" src="images\foodbank.jpg" alt="card image"></p>
                                         <h4 class="card-title">Toronto Food Bank</h4>
-                                        <p class="card-text">Hey! My name is Sharb and Im looking to help teach
-                                            Football!.</p>
+                                        <span class="badge badge-secondary">Soap Making</span>
+                                        <span class="badge badge-secondary">Sewing</span>
+                                        <p class="card-text">We collaborate with all to eliminate food insecurity, and
+                                            advocate solutions to end poverty. Join us with this important mission!</p>
 
                                     </div>
                                 </div>
@@ -328,12 +324,14 @@
                             <div class="frontside">
                                 <div class="card">
                                     <div class="card-body text-center">
-                                        <p><img class=" img-fluid"
-                                                src="images\elderly.jpeg"
-                                                alt="card image"></p>
+                                        <p><img class=" img-fluid" src="images\elderly.jpeg" alt="card image"></p>
+
+
                                         <h4 class="card-title">Alzheimer Society of Peel</h4>
-                                        <p class="card-text">hey! My name is Flower and Im looking to help teach
-                                            Yoga and Swimming! </p>
+                                        <span class="badge badge-secondary">All</span>
+                                        <p class="card-text">he Alzheimer Society can provide you with the information
+                                            and resources to help you manage your diagnosis, assert your rights, live
+                                            well with dementia, plan for your future and more. </p>
 
                                     </div>
                                 </div>
@@ -368,7 +366,7 @@
             <div class="row">
                 <!--Grid column-->
                 <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Beam</h5>
+                    <h5 class="text-uppercase"><img src="images\logo.png" style="height: 75px; width: 75px"></h5>
 
                     <p>Contact Us</p>
                     <p>Learn More</p>
@@ -402,6 +400,7 @@
         <!-- Copyright -->
     </footer>
     <script src="explore.js"></script>
+    <script src="organization.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>
